@@ -6,12 +6,13 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-h1{
+h1 {
     font-family: 'Emblema One', cursive;
     font-size: 104.6px;
     line-height: 87.3px;
     color: #1D81CC;
     margin-top: 200px;
+    text-transform: uppercase;
 }
 header {
     background-image: url(./electric-select/assets/header-alt.png);
@@ -35,10 +36,11 @@ nav a {
     width: 100%;
     font-size: 18px;
     color: #042259;
-    padding: 15px 40px;
+    padding: 15px 30px;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    
     
 }
 .wrapper {
@@ -50,3 +52,4 @@ header .wrapper {
     display: flex;
     justify-content: space-between;
 }
+
